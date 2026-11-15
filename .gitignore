@@ -1,0 +1,8 @@
+# Never commit credentials, local settings or private backend source
+.env
+.env.*
+*.pem
+*.key
+secrets/
+private-backend/
+apps-script-private/
